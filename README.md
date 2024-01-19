@@ -11,8 +11,10 @@ Initially, I conducted basic data preprocessing. This involved removing punctuat
 3. I leveraged SpaCy's extensive English corpus to train embeddings, followed by the application of an LSTM model.
 
 4. I developed a custom tokenization of word embeddings, which were then used in an LSTM model.
+   
+5. I have pretrained word embeddings using word2vec-google-news-300 and then used those word embeddings in a LSTM model
 
-5. Finally, I trained the data using the FastText model and plan to apply LSTM to these pre-trained word embeddings.
+7. Finally, I trained the data using the FastText model and plan to apply LSTM to these pre-trained word embeddings.
 
 
 
