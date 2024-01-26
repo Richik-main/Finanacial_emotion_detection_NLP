@@ -4,9 +4,9 @@ I have employed a step-by-step approach, utilizing various methods, to analyze t
 
 Initially, I conducted basic data preprocessing. This involved removing punctuation, stop words, end lines, extra spaces, single characters, numbers, and special characters, using Gensim's small model and Python's re library.
 As the data is imbalaced I have used three techniques to get better prediction. The techiques are:
-1. **SMOTE technique**
-2.**Focal Loss** Used Focal loss with high alpha value and gamma value which gives more priority to the minority class.
-3. **Cost-Sensitive Learning:**: This involves modifying your learning algorithm so that it takes the class distribution or misclassification costs into account.
+a. **SMOTE technique**
+b.**Focal Loss** Used Focal loss with high alpha value and gamma value which gives more priority to the minority class.
+c. **Cost-Sensitive Learning:**: This involves modifying your learning algorithm so that it takes the class distribution or misclassification costs into account.
 
 
 
