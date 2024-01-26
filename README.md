@@ -8,6 +8,8 @@ As the data is imbalaced I have used three techniques to get better prediction. 
 2.**Focal Loss** Used Focal loss with high alpha value and gamma value which gives more priority to the minority class.
 3. **Cost-Sensitive Learning:**: This involves modifying your learning algorithm so that it takes the class distribution or misclassification costs into account.
 
+
+
 1. For preliminary sentiment analysis, I utilized the Afinn tool, which yielded moderate results.
 
 2. I then applied TF-IDF to the data and utilized several non-parametric classifiers, including KNeighborsClassifier, GradientBoostingClassifier, a combination of GradientBoostingClassifier and MultinomialNB, and RandomForestClassifier, as well as a combination of RandomForestClassifier and MultinomialNB.
