@@ -7,7 +7,9 @@ As the data is imbalaced I have used three techniques to get better prediction. 
 
 
 a. **SMOTE technique**
+
 b.**Focal Loss** Used Focal loss with high alpha value and gamma value which gives more priority to the minority class.
+
 c. **Cost-Sensitive Learning:**: This involves modifying your learning algorithm so that it takes the class distribution or misclassification costs into account.
 
 
